@@ -13,6 +13,7 @@
 		9383A94228C84F220063FFA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9383A94028C84F220063FFA2 /* Main.storyboard */; };
 		9383A94428C84F230063FFA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9383A94328C84F230063FFA2 /* Assets.xcassets */; };
 		9383A94728C84F230063FFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9383A94528C84F230063FFA2 /* LaunchScreen.storyboard */; };
+		9383A94F28C86C950063FFA2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9383A94E28C86C950063FFA2 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9383A94328C84F230063FFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9383A94628C84F230063FFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9383A94828C84F230063FFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9383A94E28C86C950063FFA2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				9383A93C28C84F220063FFA2 /* SceneDelegate.swift */,
 				9383A93E28C84F220063FFA2 /* ViewController.swift */,
 				9383A94028C84F220063FFA2 /* Main.storyboard */,
+				9383A94E28C86C950063FFA2 /* SecondViewController.swift */,
 				9383A94328C84F230063FFA2 /* Assets.xcassets */,
 				9383A94528C84F230063FFA2 /* LaunchScreen.storyboard */,
 				9383A94828C84F230063FFA2 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9383A94F28C86C950063FFA2 /* SecondViewController.swift in Sources */,
 				9383A93F28C84F220063FFA2 /* ViewController.swift in Sources */,
 				9383A93B28C84F220063FFA2 /* AppDelegate.swift in Sources */,
 				9383A93D28C84F220063FFA2 /* SceneDelegate.swift in Sources */,
@@ -304,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
